@@ -1,0 +1,18 @@
+--- 
+pid: tmp/pids/thin.pid
+address: 0.0.0.0
+timeout: 30
+wait: 30
+port: 9003
+log: log/thin.log
+max_conns: 1024
+require: []
+
+environment: development
+max_persistent_conns: 512
+daemonize: true
+servers: 3
+chdir: /var/www/web9/timetable
+prefix: /timetable
+user: worawitp
+group: worawitp

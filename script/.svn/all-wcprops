@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/web10_09/!svn/ver/59/branches/timetable/script
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web10_09/!svn/ver/59/branches/timetable/script/console
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/web10_09/!svn/ver/59/branches/timetable/script/server
+END
+dbconsole
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/web10_09/!svn/ver/59/branches/timetable/script/dbconsole
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web10_09/!svn/ver/59/branches/timetable/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/web10_09/!svn/ver/59/branches/timetable/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/web10_09/!svn/ver/59/branches/timetable/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/web10_09/!svn/ver/59/branches/timetable/script/generate
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/web10_09/!svn/ver/59/branches/timetable/script/plugin
+END

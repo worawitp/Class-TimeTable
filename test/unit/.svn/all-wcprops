@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/web10_09/!svn/ver/110/branches/timetable/test/unit
+END
+user_mailer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/web10_09/!svn/ver/59/branches/timetable/test/unit/user_mailer_test.rb
+END
+survey_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web10_09/!svn/ver/107/branches/timetable/test/unit/survey_test.rb
+END
+student_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/web10_09/!svn/ver/108/branches/timetable/test/unit/student_test.rb
+END
+course_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web10_09/!svn/ver/107/branches/timetable/test/unit/course_test.rb
+END
+surveychoice_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web10_09/!svn/ver/107/branches/timetable/test/unit/surveychoice_test.rb
+END
+room_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/web10_09/!svn/ver/107/branches/timetable/test/unit/room_test.rb
+END
+instructor_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/web10_09/!svn/ver/108/branches/timetable/test/unit/instructor_test.rb
+END
+comment_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/web10_09/!svn/ver/107/branches/timetable/test/unit/comment_test.rb
+END
+student_course_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/web10_09/!svn/ver/108/branches/timetable/test/unit/student_course_test.rb
+END
+staff_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web10_09/!svn/ver/110/branches/timetable/test/unit/staff_test.rb
+END
+forum_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web10_09/!svn/ver/107/branches/timetable/test/unit/forum_test.rb
+END
+vote_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/web10_09/!svn/ver/107/branches/timetable/test/unit/vote_test.rb
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/web10_09/!svn/ver/59/branches/timetable/test/unit/user_test.rb
+END
+timeslot_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/web10_09/!svn/ver/107/branches/timetable/test/unit/timeslot_test.rb
+END
+topic_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web10_09/!svn/ver/107/branches/timetable/test/unit/topic_test.rb
+END

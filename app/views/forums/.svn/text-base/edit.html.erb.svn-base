@@ -1,0 +1,31 @@
+<h2 class="ui-widget-header ui-corner-all">Editing forum</h2>
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+  <legend class="ui-corner-all">Forum information:</legend>
+  <% form_for(@forum) do |f| %>
+      <%= f.error_messages %>
+
+      <p>
+        <%= f.label :name, "Forum name : " %>
+        <%= f.text_field :name %>
+      </p>
+      <p>
+        <%= f.label :course_id, "For course : " %>
+        <%#= f.text_field :course_id %>
+        <% if @courses.length == 1 %>
+            <%= @courses[0].number %> <%= @courses[0].name %>
+            <%= f.hidden_field :course_id, :value => @courses[0].org_id %>
+        <% else %>
+            <%= f.select :course_id, @courses.collect { |c| [ c.number+" "+c.name, c.org_id ] }, {:prompt => 'Select Course'} %>
+        <% end %>
+        <%#= f.label :course_id %>
+        <%#= f.text_field :course_id %>
+        <%#= f.select :course_id, @courses.collect { |c| [ c.number+" "+c.name, c.id ] }, {:prompt => 'Select Course'} %>
+      </p>
+      <p>
+        <%= f.submit 'Update', :class => "submit ui-button ui-widget ui-state-default ui-corner-all" %>
+      </p>
+  <% end %>
+</fieldset>
+<p>
+  <%= link_to "Back", course_forums_path(@courses[0].org_id), :class => "ui-button ui-widget ui-state-default ui-corner-all" %>
+</p>

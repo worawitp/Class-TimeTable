@@ -1,0 +1,165 @@
+<p>
+  <% if @admin_role %>
+      <%#= link_to "Admin Page (in home controller)", { :controller => "home", :action => "admin_index" } %>
+      <%= link_to "Admin Page", { :controller => "admin", :action => "index" }, :class => "ui-button ui-widget ui-state-default ui-corner-all" %>
+      <%#= link_to "Admin Page", { :controller => "admin", :action => "index" }, :class => "ui-button ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default"  %>
+  <% end %>
+
+  <%= link_to "Logout", { :controller => "sessions", :action => "destroy" }, :class => "ui-button ui-widget ui-state-default ui-corner-all" %>
+</p>
+
+<div id="all">
+<h2 class="ui-widget-header ui-corner-all">User Home Page</h2>
+<div id="all2">
+<div id="left_column">
+  <div class="sidebar_box">
+    <fieldset class="ui-widget ui-widget-content ui-corner-all">
+      <!-- h2-->
+      <!--<span class="header">User Info</span>-->
+      <!--<fieldset class="ui-widget ui-widget-content ui-corner-all">-->
+      <!--<legend class="ui-corner-all">Details</legend>-->
+      <!--</fieldset>-->
+      <!--<span class="ui-widget-header ui-corner-all">User Info</span>-->
+      <legend class="ui-corner-all">User Info</legend>
+      <span class="edit_link" ><%= link_to "(edit)", {:controller => "home", :action => "edit" }, :class => "ui-button ui-state-default a ui-state-default a:link ui-state-default a:visited ui-corner-all" %></span>
+      <br clear="all" />
+      <!-- /h2-->
+      <div class="sidebar_box_contents">
+        <table>
+          <tr>
+            <td class="label">Username:</td>
+            <td><%= @user.login %></td>
+          </tr>
+          <tr>
+            <td class="label">Full name:</td>
+            <td><%= @user.fname %> <%= @user.lname %></td>
+          </tr>
+          <td class="label">Type:</td>
+          <td><%= @user.type.to_s %></td>
+          <tr>
+            <td class="label">Email:</td>
+            <td><%= @user.email %></td>
+          </tr>
+          <tr>
+            <td class="label">Password:</td>
+            <td>********</td>
+          </tr>
+        </table>
+      </div>
+    </fieldset>
+  </div>
+</div>
+<br/>
+
+<div id="main_content">
+  <% if @user.type.to_s == "Instructor" %>
+      <fieldset class="ui-widget ui-widget-content ui-corner-all">
+        <!--<legend class="ui-corner-all">User Info</legend>        -->
+        <!--h2-->
+        <legend class="ui-corner-all">Teaching courses:</legend>
+        <!--/h2-->
+        <!--<h2><span class="ui-widget-header ui-corner-all">Teaching courses:</span></h2>-->
+        <table>
+          <tr class="heading">
+            <!--th>id</th-->
+            <th>Number</th>
+            <th>Name</th>
+            <!--th>Instructor</th-->
+            <th>Year</th>
+            <th>Semester</th>
+            <!--th>Version number</th-->
+          </tr>
+
+          <% @courses.each do |course| %>
+              <tr>
+                <!--td><%#=h course.id %></td-->
+                <td><%= link_to course.number, course_path(course.org_id) %></td>
+                <td><%= link_to course.name, course_path(course.org_id) %></td>
+                <% instructor=User.find_by_id(course.instructor_id) %>
+                <!--td><%#=h instructor.fname %> <%=h instructor.lname %></td-->
+                <td><%=h course.year %></td>
+                <td><%=h course.semester %></td>
+                <!--td><%#=h course.version_number %></td-->
+                <!--td><%#= link_to 'Show', course, :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td-->
+                <!--td><%#= link_to 'Edit', edit_course_path(course), :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td>
+                <td><%#= link_to 'Forum', {:controller => "forums", :action => "index" , :course_id => course.org_id}, :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td>
+                <td><%#= link_to 'Destroy', course, :confirm => 'Are you sure?', :method => :delete, :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td-->
+              </tr>
+          <% end %>
+        </table>
+      </fieldset>
+
+      <br/>
+      <%#= link_to 'New course', new_course_path %>
+      <%= link_to "New course", {:controller => "courses", :action => "new", :instructor_id => @user.id}, :class => "ui-button ui-widget ui-state-default ui-corner-all" %>
+      <%#= link_to "Admin Page", { :controller => "admin", :action => "index" }, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button"  %>
+  <% elsif @user.type.to_s == "Student" %>
+      <fieldset class="ui-widget ui-widget-content ui-corner-all">
+        <!--h2-->
+        <legend class="ui-corner-all">Courses taken:</legend>
+        <!--/h2-->
+        <% if @taken_courses.length > 0 %>
+            <table>
+              <tr class="heading">
+                <th>Number</th>
+                <th>Course Title</th>
+                <th>Instructor</th>
+                <th>Year</th>
+                <th>Semester</th>
+              </tr>
+
+              <% @taken_courses.each do |course| %>
+                  <tr>
+                    <td><%= link_to course.number, course_path(course.org_id) %></td>
+                    <td><%= link_to course.name, course_path(course.org_id) %></td>
+                    <% instructor=User.find_by_id(course.instructor_id) %>
+                    <td><%=h instructor.fname %> <%=h instructor.lname %></td>
+                    <td><%=h course.year %></td>
+                    <td><%=h course.semester %></td>
+                    <!--td><%#= link_to 'Show', course, :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td>
+                    <td><%#= link_to 'Forum',{ :controller => "forums", :action => "index" , :course_id => course.org_id },
+                                    :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td-->
+                    <td><%= link_to 'Drop', { :controller => "home", :action => "drop_course" , :course_id => course.org_id, :student_id => @user.id  }, :confirm => 'Are you sure?',
+                                    :class => "ui-button ui-widget ui-state-default ui-corner-all"  %></td>
+                  </tr>
+              <% end %>
+            </table>
+        <% else %>
+            <p>None</p>
+        <% end %>
+        <%= link_to "Register a course", {:controller => "student_courses", :action => "new", :student_id => @user.id },
+                    :class => "ui-button ui-widget ui-state-default ui-corner-all"%>
+        <%= link_to "My class schedule", {:controller => "student_courses", :action => "show", :student_id => @user.id },
+                    :class => "ui-button ui-widget ui-state-default ui-corner-all"%>
+      </fieldset>
+      <br/>
+      <fieldset class="ui-widget ui-widget-content ui-corner-all">
+        <!--h2-->
+        <legend class="ui-corner-all">All courses:</legend>
+        <!--/h2-->
+        <table>
+          <tr class="heading">
+            <th>Number</th>
+            <th>Course Title</th>
+            <th>Instructor</th>
+            <th>Year</th>
+            <th>Semester</th>
+          </tr>
+
+          <% @courses.each do |course| %>
+              <tr>
+                <td><%= link_to course.number, course_path(course.org_id) %></td>
+                <td><%= link_to course.name, course_path(course.org_id) %></td>
+                <% instructor=User.find_by_id(course.instructor_id) %>
+                <td><%=h instructor.fname %> <%=h instructor.lname %></td>
+                <td><%=h course.year %></td>
+                <td><%=h course.semester %></td>
+                <!--td><%#= link_to 'Show', course, :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td-->
+              </tr>
+          <% end %>
+        </table>
+      </fieldset>
+  <% end %>
+</div>
+</div>
+</div>

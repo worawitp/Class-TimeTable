@@ -1,0 +1,46 @@
+<% if @course %>
+    <h2 class = "ui-widget-header ui-corner-all">Listing forums for course: <%= @course.number+" "+@course.name %></h2>
+<% else %>
+    <h2 class = "ui-widget-header ui-corner-all">Listing forums</h2>
+<% end %>
+
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+<% if @forums.length > 0 %>
+    <table>
+      <tr>
+        <th>Forum Name</th>
+        <% if @course==nil %>
+            <th>Course</th>
+        <% end %>
+        <th>Number of topics</th>
+      </tr>
+
+      <% @forums.each do |forum| %>
+          <tr>
+            <td><%= link_to forum.name, forum %></td>
+            <% if @course==nil %>
+                <td><%=h Course.find_by_id(forum.course_id).name %></td>
+            <% end %>
+            <td><%= forum.topics.length %></td>
+            <!--td><%#= link_to 'Show', forum, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %></td-->
+            <!--td><%#= link_to 'Edit', { :controller => "forums", :action => "edit", :id=> forum.id, :course_id => @course.org_id }, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %></td-->
+            <% if(@user.id == Course.find_by_id(forum.course_id).instructor_id) %>
+                <td><%= link_to 'Edit', edit_course_forum_path(:course_id => @course.org_id, :id => forum.id), :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %></td>
+                <td><%= link_to 'Destroy', forum, :confirm => 'Are you sure?', :method => :delete, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %></td>
+            <% end %>
+          </tr>
+      <% end %>
+    </table>
+<% else %>
+    <p>No forum</p>
+<% end %>
+</fieldset>
+<br />
+
+<% if @course %>
+    <%#= link_to "New forum", {:controller => "forums", :action => "new", :course_id => @course.org_id}, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %>
+    <%= link_to "New forum", new_course_forum_path(@course.org_id), :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %>
+    <%= link_to 'Home', { :controller => "home" }, :class => "ui-button ui-widget ui-state-default ui-corner-all" %>
+<% else %>
+    <%= link_to 'New forum', new_forum_path, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %>
+<% end %>

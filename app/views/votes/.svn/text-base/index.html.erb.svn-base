@@ -1,0 +1,24 @@
+<h2 class="ui-widget-header ui-corner-all">Listing votes</h2>
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+<table>
+      <th>Surveychoice</th>
+    <th>Ownersdfgdgdfgdfg</th>
+  </tr>
+
+<% @votes.each do |vote| %>
+  <tr>
+    <td><%=h vote.surveychoice_id %></td>
+    <td><%=h vote.owner_id %></td>
+    <td><%= link_to 'Show', vote,:class => "ui-button ui-state-default ui-corner-all" %></td>
+    <td><%= link_to 'Edit', edit_vote_path(vote),:class => "ui-button ui-state-default ui-corner-all" %></td>
+    <td><%= link_to 'Destroy', vote, :confirm => 'Are you sure?', :method => :delete, :class => "ui-button ui-state-default ui-corner-all" %></td>
+  </tr>
+<% end %>
+</table>
+<br /> <tr class="heading">
+</fieldset>
+<br>
+<%= link_to 'New vote', new_vote_path ,:class => "ui-button ui-state-default ui-corner-all"%>
+<%= link_to 'Show votes rank', votecount_path, :class => "ui-button ui-state-default ui-corner-all" %>
+<%= link_to "Home", { :controller => "home", :action => "index" }, :class => "ui-button ui-state-default ui-corner-all"  %>
+

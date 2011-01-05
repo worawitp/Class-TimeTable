@@ -1,0 +1,1361 @@
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:572:in `start_tcp_server': no acceptor (RuntimeError)
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:572:in `start_server'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:49
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/controllers/controller.rb:80:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `run_command'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:143:in `run!'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/bin/thin:6
+	from /usr/bin/thin:19:in `load'
+	from /usr/bin/thin:19
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:572:in `start_tcp_server': no acceptor (RuntimeError)
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:572:in `start_server'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:49
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/controllers/controller.rb:80:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `run_command'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:143:in `run!'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/bin/thin:6
+	from /usr/bin/thin:19:in `load'
+	from /usr/bin/thin:19
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:572:in `start_tcp_server': no acceptor (RuntimeError)
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:572:in `start_server'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:49
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+	from /usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/controllers/controller.rb:80:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `run_command'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:143:in `run!'
+	from /usr/lib/ruby/gems/1.8/gems/thin-1.2.7/bin/thin:6
+	from /usr/bin/thin:19:in `load'
+	from /usr/bin/thin:19
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+The {{key}} interpolation syntax in I18n messages is deprecated. Please use %{key} instead.
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:162:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `gsub'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:197:in `preserve_encoding'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:156:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:49:in `translate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n.rb:152:in `t'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:198:in `error_messages_for'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/object/misc.rb:78:in `with_options'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:192:in `error_messages_for'
+/var/www/web9/timetable/app/views/users/new.html.erb:3:in `_run_erb_app47views47users47new46html46erb'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/var/www/web9/timetable/app/controllers/users_controller.rb:25:in `create'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/rack/adapter/rails.rb:74:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:76:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `catch'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:57:in `process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:42:in `receive_data'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/controllers/controller.rb:80:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `send'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `run_command'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:143:in `run!'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/bin/thin:6
+/usr/bin/thin:19:in `load'
+/usr/bin/thin:19
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+The {{key}} interpolation syntax in I18n messages is deprecated. Please use %{key} instead.
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:162:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `gsub'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:197:in `preserve_encoding'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:156:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:49:in `translate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n.rb:152:in `t'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:198:in `error_messages_for'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/object/misc.rb:78:in `with_options'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:192:in `error_messages_for'
+/var/www/web9/timetable/app/views/users/new.html.erb:3:in `_run_erb_app47views47users47new46html46erb'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/var/www/web9/timetable/app/controllers/users_controller.rb:26:in `create'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/rack/adapter/rails.rb:74:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:76:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `catch'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:57:in `process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:42:in `receive_data'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/controllers/controller.rb:80:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `send'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `run_command'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:143:in `run!'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/bin/thin:6
+/usr/bin/thin:19:in `load'
+/usr/bin/thin:19
+The {{key}} interpolation syntax in I18n messages is deprecated. Please use %{key} instead.
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:162:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `gsub'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:197:in `preserve_encoding'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:156:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:49:in `translate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n.rb:152:in `t'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:198:in `error_messages_for'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/object/misc.rb:78:in `with_options'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:192:in `error_messages_for'
+/var/www/web9/timetable/app/views/users/new.html.erb:3:in `_run_erb_app47views47users47new46html46erb'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/var/www/web9/timetable/app/controllers/users_controller.rb:26:in `create'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/rack/adapter/rails.rb:74:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:76:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `catch'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:57:in `process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:42:in `receive_data'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/controllers/controller.rb:80:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `send'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `run_command'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:143:in `run!'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/bin/thin:6
+/usr/bin/thin:19:in `load'
+/usr/bin/thin:19
+The {{key}} interpolation syntax in I18n messages is deprecated. Please use %{key} instead.
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:162:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `gsub'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:197:in `preserve_encoding'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:156:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:49:in `translate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n.rb:152:in `t'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:198:in `error_messages_for'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/object/misc.rb:78:in `with_options'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:192:in `error_messages_for'
+/var/www/web9/timetable/app/views/users/new.html.erb:3:in `_run_erb_app47views47users47new46html46erb'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/var/www/web9/timetable/app/controllers/users_controller.rb:26:in `create'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/rack/adapter/rails.rb:74:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:76:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `catch'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:57:in `process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:42:in `receive_data'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/controllers/controller.rb:80:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `send'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `run_command'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:143:in `run!'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/bin/thin:6
+/usr/bin/thin:19:in `load'
+/usr/bin/thin:19
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+The {{key}} interpolation syntax in I18n messages is deprecated. Please use %{key} instead.
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:162:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `gsub'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:197:in `preserve_encoding'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:156:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:49:in `translate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n.rb:152:in `t'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:198:in `error_messages_for'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/object/misc.rb:78:in `with_options'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:192:in `error_messages_for'
+/var/www/web9/timetable/app/views/users/new.html.erb:3:in `_run_erb_app47views47users47new46html46erb'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/var/www/web9/timetable/app/controllers/users_controller.rb:28:in `create'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/rack/adapter/rails.rb:74:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:76:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `catch'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:57:in `process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:42:in `receive_data'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/controllers/controller.rb:80:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `send'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `run_command'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:143:in `run!'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/bin/thin:6
+/usr/bin/thin:19:in `load'
+/usr/bin/thin:19
+The {{key}} interpolation syntax in I18n messages is deprecated. Please use %{key} instead.
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:162:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `gsub'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:157:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:197:in `preserve_encoding'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:156:in `interpolate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n/backend/base.rb:49:in `translate'
+/usr/lib/ruby/gems/1.8/gems/i18n-0.4.1/lib/i18n.rb:152:in `t'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/option_merger.rb:20:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:198:in `error_messages_for'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/object/misc.rb:78:in `with_options'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/active_record_helper.rb:192:in `error_messages_for'
+/var/www/web9/timetable/app/views/users/new.html.erb:3:in `_run_erb_app47views47users47new46html46erb'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/var/www/web9/timetable/app/controllers/users_controller.rb:28:in `create'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/rack/adapter/rails.rb:74:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:76:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `catch'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:74:in `pre_process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:57:in `process'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/connection.rb:42:in `receive_data'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/usr/lib/ruby/gems/1.8/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/backends/base.rb:57:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/server.rb:156:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/controllers/controller.rb:80:in `start'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `send'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:177:in `run_command'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/lib/thin/runner.rb:143:in `run!'
+/usr/lib/ruby/gems/1.8/gems/thin-1.2.7/bin/thin:6
+/usr/bin/thin:19:in `load'
+/usr/bin/thin:19
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:15: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:15: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: character class has `[' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has `]' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:39: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: character class has `[' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has `]' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has invalid interval
+/var/www/web9/timetable/app/views/courses/new.html.erb:51: warning: regexp has `}' without escape
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/views/courses/show.html.erb:188: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:18: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+The {{key}} interpolation syntax in I18n messages is deprecated. Please use %{key} instead.
+en - 1 error prohibited this {{model}} from being saved
+
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+The {{key}} interpolation syntax in I18n messages is deprecated. Please use %{key} instead.
+en - 1 error prohibited this {{model}} from being saved
+
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/comments_controller.rb:58: warning: Object#id will be deprecated; use Object#object_id
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/views/courses/show.html.erb:139: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/views/courses/show.html.erb:192: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+Missing the Rails 2.3.8 gem. Please `gem install -v=2.3.8 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+>> Exiting!
+>> Writing PID to tmp/pids/thin.9003.pid
+>> Changing process privilege to worawitp:worawitp
+>> Using rails adapter
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9003, CTRL+C to stop
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:13: warning: Object#type is deprecated; use Object#class
+/var/www/web9/timetable/app/controllers/home_controller.rb:17: warning: Object#type is deprecated; use Object#class

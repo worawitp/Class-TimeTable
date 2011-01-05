@@ -1,0 +1,43 @@
+<h2 class="ui-widget-header ui-corner-all">Show All Versions</h2>
+
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+  <legend class="ui-corner-all">Course:</legend>
+  <table>
+    <tr class="heading">
+      <th>id</th>
+      <th>Number</th>
+      <th>Name</th>
+      <th>Instructor</th>
+      <th>Year</th>
+      <th>Semester</th>
+      <th>Version number</th>
+      <th>Time Slots</th>
+    </tr>
+
+    <% @courses.each do |course| %>
+        <tr>
+          <td><%=h course.id %></td>
+          <td><%= link_to course.number, course_path(course.org_id) %></td>
+          <td><%= link_to course.name, course_path(course.org_id) %></td>
+          <% instructor=User.find_by_id(course.instructor_id) %>
+          <td><%=h instructor.fname %> <%=h instructor.lname %></td>
+          <td><%=h course.year %></td>
+          <td><%=h course.semester %></td>
+          <td><%=h course.version_number %></td>
+          <td>
+            <% wday=%w(Sunday Monday Tuesday Wednesday Thursday Friday Saturday) %>
+            <% timeslots=course.timeslots %>
+            <p>
+              <% for timeslot in timeslots %>
+                  <%= wday[timeslot.day.to_i] %> <%= timeslot.starttime.strftime("%H:%M") %> <%= timeslot.endtime.strftime("%H:%M") %><br/>
+              <% end %>
+            </p>
+          </td>
+          <!--td><%#= link_to 'Show', course, :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td-->
+          <!--td><%#= link_to 'Edit', edit_course_path(course), :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td>
+          <td><%#= link_to 'Forum', {:controller => "forums", :action => "index" , :course_id => course.org_id}, :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td>
+          <td><%#= link_to 'Destroy', course, :confirm => 'Are you sure?', :method => :delete, :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td-->
+        </tr>
+    <% end %>
+  </table>
+</fieldset>

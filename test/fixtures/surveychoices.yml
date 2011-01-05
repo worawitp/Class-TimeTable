@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  survey_id: 1
+  choice_number: 1
+  content: MyString
+
+two:
+  survey_id: 1
+  choice_number: 1
+  content: MyString

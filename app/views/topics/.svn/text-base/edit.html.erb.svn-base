@@ -1,0 +1,45 @@
+<h2 class = "ui-widget-header ui-corner-all">Editing topic</h2>
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+  <legend class="ui-corner-all">Topic info:</legend>
+  <% form_for(@topic) do |f| %>
+      <%= f.error_messages %>
+
+      <p>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+      </p>
+      <p>
+        <%= f.label :description %>
+        <%= f.text_field :description %>
+      </p>
+      <p>
+        <%= f.label :content %>
+        <%= f.text_area :content %>
+      </p>
+      <p>
+        <%= f.label :forum_id, "Forum : " %>
+        <%#= f.text_field :forum_id %>
+        <% if @forums.length == 1 %>
+            <%= @forums[0].name %>
+            <%= f.hidden_field :forum_id, :value => @forums[0].id %>
+        <% else %>
+            <%= f.select :forum_id, @forums.collect { |fo| [ fo.name, fo.id ] }, {:prompt => 'Select forum'} %>
+        <% end %>
+      </p>
+      <p>
+        <%= f.label :owner_id, "User : " %>
+        <%#= f.text_field :owner_id %>
+        <%= @user.login %>
+        <%= f.hidden_field :owner_id, :value => @user.id %>
+      </p>
+      <p>
+        <%= f.submit 'Update', :class => "submit ui-button ui-widget ui-state-default ui-corner-all" %>
+      </p>
+  <% end %>
+</fieldset>
+<br/>
+<% if @forums.length == 1 %>
+    <%= link_to "Back", forum_path(@forums[0].id), :class => "ui-button ui-widget ui-state-default ui-corner-all" %>
+<% else %>
+    <%= link_to 'Back', topics_path %>
+<% end %>

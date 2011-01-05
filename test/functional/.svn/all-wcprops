@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/web10_09/!svn/ver/108/branches/timetable/test/functional
+END
+forums_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/web10_09/!svn/ver/107/branches/timetable/test/functional/forums_controller_test.rb
+END
+surveys_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/web10_09/!svn/ver/107/branches/timetable/test/functional/surveys_controller_test.rb
+END
+courses_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/web10_09/!svn/ver/107/branches/timetable/test/functional/courses_controller_test.rb
+END
+timeslots_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web10_09/!svn/ver/107/branches/timetable/test/functional/timeslots_controller_test.rb
+END
+comments_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/web10_09/!svn/ver/107/branches/timetable/test/functional/comments_controller_test.rb
+END
+admin_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/web10_09/!svn/ver/66/branches/timetable/test/functional/admin_controller_test.rb
+END
+home_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/web10_09/!svn/ver/62/branches/timetable/test/functional/home_controller_test.rb
+END
+student_courses_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/web10_09/!svn/ver/108/branches/timetable/test/functional/student_courses_controller_test.rb
+END
+surveychoices_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/web10_09/!svn/ver/107/branches/timetable/test/functional/surveychoices_controller_test.rb
+END
+rooms_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/web10_09/!svn/ver/107/branches/timetable/test/functional/rooms_controller_test.rb
+END
+votes_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/web10_09/!svn/ver/107/branches/timetable/test/functional/votes_controller_test.rb
+END
+topics_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/web10_09/!svn/ver/107/branches/timetable/test/functional/topics_controller_test.rb
+END
+users_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/web10_09/!svn/ver/59/branches/timetable/test/functional/users_controller_test.rb
+END
+sessions_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/web10_09/!svn/ver/59/branches/timetable/test/functional/sessions_controller_test.rb
+END
+timetable_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web10_09/!svn/ver/100/branches/timetable/test/functional/timetable_controller_test.rb
+END

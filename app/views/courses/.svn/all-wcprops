@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/web10_09/!svn/ver/221/branches/timetable/app/views/courses
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web10_09/!svn/ver/221/branches/timetable/app/views/courses/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/web10_09/!svn/ver/232/branches/timetable/app/views/courses/show.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/web10_09/!svn/ver/221/branches/timetable/app/views/courses/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/web10_09/!svn/ver/112/branches/timetable/app/views/courses/index.html.erb
+END

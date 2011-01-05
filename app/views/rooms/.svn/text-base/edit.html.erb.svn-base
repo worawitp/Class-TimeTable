@@ -1,0 +1,29 @@
+<h2 class="ui-widget-header ui-corner-all">Editing room</h2>
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+<% form_for(@room) do |f| %>
+  <%= f.error_messages %>
+
+   <p>
+    <%= f.label :name, "Room number :"%>
+    <%= f.text_field :room_number %><br />
+  </p>
+  <p>
+    <%= f.label :name ,"Capacity :" %>
+    <%= f.text_field :capacity %><br />
+  </p>
+  <p>
+    <%= f.label :name ,"Building :" %>
+    <%= f.text_field :building %><br />
+  </p>
+  <p>
+    <%= f.label :name, "Type :"%>
+    <%= f.text_field :type %><br />
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+</fieldset>
+<br>
+<%= link_to 'Show', @room ,:class => "ui-button ui-state-default ui-corner-all" %> 
+<%= link_to 'Back', rooms_path,:class => "ui-button ui-state-default ui-corner-all" %>

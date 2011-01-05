@@ -1,0 +1,28 @@
+<h2 class="ui-widget-header ui-corner-all">Editing student_course</h2>
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+<% form_for(@student_course) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :student_id %><br />
+    <%#= f.text_field :student_id %>
+    <% if @students.length == 1 %>
+        <%= @students[0].fname %> <%= @students[0].lname %>
+        <%= f.hidden_field :student_id, :value => @students[0].id %>
+    <% else %>
+        <%= f.select :student_id, @students.collect { |s| [ s.fname+" "+s.lname, s.id ] }, {:prompt => 'Select Student'} %>
+    <% end %>
+  </p>
+  <p>
+    <%= f.label :take_course_id %><br />
+    <%#= f.text_field :take_course_id %>
+    <%= f.select :take_course_id, @courses.collect { |c| [ c.number+" "+c.name, c.id ] }, {:prompt => 'Select Course'} %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+</fieldset>
+<br>
+<%= link_to 'Show', @student_course, :class => "ui-button ui-state-default ui-corner-all"  %> |
+<%= link_to 'Back', student_courses_path,:class => "ui-button ui-state-default ui-corner-all"  %>

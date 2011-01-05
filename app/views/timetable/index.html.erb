@@ -1,0 +1,141 @@
+<% timeWidth = 40 %>
+<% timeHeight = 60 %>
+<% dayWidth = 70 %>
+<% dayHeight = 40 %>
+<% topSpace = 30 %>
+
+<style>
+    #resizable
+    {
+        width: 1250px;
+        height: 450px;
+        padding: 0.5em;
+        font-size: 10px
+    }
+    #resizable h3
+    {
+        text-align: center;
+        margin: 0;
+        font-size: 10px
+    }
+    #draggable {
+        width: 150px;
+        height: 150px;
+        padding: 0.5em;
+        font-size: 10px
+    }
+    .time
+    {
+        width: <%= timeWidth %>px;
+        height: <%= timeHeight %>px;
+        padding: 0em;
+        font-size: 10px;
+        text-align: center
+    }
+    .day
+    {
+        width: <%= dayWidth %>px;
+        height: <%= dayHeight %>px;
+        padding: 0em;
+        font-size: 10px;
+        text-align: center
+    }
+    .timeslot
+    {
+        width: <%= timeWidth %>px;
+        height: <%= timeHeight %>px;
+        padding: 0em;
+        font-size: 10px;
+        text-align: center;
+    }
+</style>
+<script>
+    $(function() {
+        $( "#resizable" ).resizable();
+        //$( "#resizable" ).draggable();
+    });
+
+    $(function() {
+        $( "#draggable" ).draggable();
+        $( "#draggable" ).resizable();
+    });
+
+    //$(function() {
+    //    for(i=0;i<20;i++) {
+    //        $( "#test"+i ).draggable();
+            //$( "#test"+i ).resizable();
+    //    }
+    //});
+    $(function() {
+        //alert("timeslot 1 : "+$( "#timeslot1" ).text());
+        for (i=0;i<10;i++) {
+            var text = $( "#timeslot"+i ).text();
+            var token=text.split("-");
+            var first = token[0].split(":");
+            var second = token[1].split(":");
+
+            var start = first[0] - 8 + first[1]/30;
+            var length = (second[0] - first[0]) * 2 + (second[1] - first[1])/30;
+
+            start = <%= dayWidth %> + ((first[0] - 8) * 2 + first[1]/30) * (<%= timeWidth %> + 0);
+            //alert(start);
+            //alert("token : "+token);
+            //alert("first : "+first);
+            //alert("second : "+second);
+
+            //alert("timeslot 1 width : "+$( "#timeslot1" ).width());
+            $( "#timeslot"+i ).width(length * (<%= timeWidth %> + 0));
+            $( "#timeslot"+i ).height(<%= dayHeight %>);
+            $( "#timeslot"+i ).css( { top: <%= topSpace+timeHeight %>+"px", left: start, position: "absolute" });
+            //$( "#timeslot1" ).draggable();
+            //$( "#timeslot1" ).top(100);
+        }
+
+
+    });
+
+</script>
+
+
+
+<div class="demo">
+
+  <div id="resizable" class="ui-widget-content">
+    <h3 class="ui-widget-header">time table</h3>
+
+    <%#= time header  %>
+    <% t=Time.parse("8:00") %>
+    <% 24.times { |i| %>
+        <div id="test<%= i %>" class="ui-widget-content time" style="position: absolute; top: <%= topSpace %>px; left: <%= dayWidth+i*timeWidth %>px;">
+          <p><%= t.strftime("%H:%M") %></p>
+          <% t=t+(30*60) %>
+          <p><%= t.strftime("%H:%M") %></p>
+        </div>
+    <% } %>
+
+    
+    <%#= day %>
+    <% weekday = %w[Monday Tuesday Wednesday Thursday Friday Saturday Sunday] %>
+    <% 7.times { |i| %>
+        <div id="test<%= i %>" class="ui-widget-content day" style="position: absolute; top: <%= topSpace+timeHeight+i*dayHeight %>px; left: 0px;">
+          <p><%= weekday[i] %></p>
+        </div>
+    <% } %>
+
+    <div id="timeslot0" class="ui-widget-content timeslot">08:00 - 08:30</div>
+    <div id="timeslot1" class="ui-widget-content timeslot">09:00 - 10:00</div>
+    <div id="timeslot2" class="ui-widget-content timeslot">10:30 - 11:00</div>
+    <div id="timeslot3" class="ui-widget-content timeslot">11:30 - 13:30</div>
+    <div id="timeslot4" class="ui-widget-content timeslot">14:00 - 15:30</div>
+    <div id="timeslot5" class="ui-widget-content timeslot">16:00 - 17:30</div>
+    <div id="timeslot6" class="ui-widget-content timeslot">17:30 - 18:30</div>
+    <div id="timeslot7" class="ui-widget-content timeslot">18:30 - 19:00</div>
+    <div id="timeslot8" class="ui-widget-content timeslot">19:00 - 19:30</div>
+    <div id="timeslot9" class="ui-widget-content timeslot">20:00 - 20:00</div>
+
+  </div>
+  
+
+
+</div><!-- End demo -->
+

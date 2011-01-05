@@ -1,0 +1,31 @@
+<h2 class="ui-widget-header ui-corner-all"><%= @title %></h2>
+<%= error_messages_for 'user' %>
+<% form_for :user do |form| %>
+    <fieldset class="ui-widget ui-widget-content ui-corner-all">
+      <legend class="ui-corner-all">Details</legend>
+      <%= render :partial => "users/email_field_row", :locals => { :form => form } %>
+      <%= render :partial => "users/name_field_row", :locals => { :form => form } %>
+      <%= hidden_field_tag "attribute", "details", :id => nil %>
+      <%= submit_tag "Update", :class => "submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" %>
+    </fieldset>
+<% end %>
+<% form_for :user do |form| %>
+    <fieldset class="ui-widget ui-widget-content ui-corner-all">
+      <legend class="ui-corner-all">Password</legend>
+      <%= render :partial => "users/password_field_row",
+                 :locals => { :form => form,
+                              :field => "current_password" } %>
+      <%= render :partial => "users/password_field_row",
+                 :locals => { :form => form,
+                              :field => "new_password",
+                              :field_title => "New password" } %>
+      <%= render :partial => "users/password_field_row",
+                 :locals => { :form => form,
+                              :field => "password_confirmation",
+                              :field_title => "Confirm" } %>
+      <%= hidden_field_tag "attribute", "password", :id => nil %>
+      <%= submit_tag "Update", :class => "submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" %>
+    </fieldset>
+<% end %>
+<br/>
+<%= link_to "Home", { :controller => "home", :action => "index" }, :class => "ui-button ui-state-default ui-corner-all"  %>

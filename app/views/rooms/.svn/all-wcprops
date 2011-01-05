@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/web10_09/!svn/ver/176/branches/timetable/app/views/rooms
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/web10_09/!svn/ver/175/branches/timetable/app/views/rooms/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/web10_09/!svn/ver/176/branches/timetable/app/views/rooms/show.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/web10_09/!svn/ver/173/branches/timetable/app/views/rooms/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web10_09/!svn/ver/174/branches/timetable/app/views/rooms/index.html.erb
+END

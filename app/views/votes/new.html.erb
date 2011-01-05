@@ -1,0 +1,20 @@
+<h2 class="ui-widget-header ui-corner-all" >New vote</h2>
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+<% form_for(@vote) do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name,"surveychoice :"%>
+    <%= f.text_field :surveychoice_id %><br />
+  </p>
+  <p>
+    <%= f.label :name, "owner :" %>
+    <%= f.text_field :owner_id %>
+  </p>
+  <p>
+    <%= f.submit 'Create',:class => "ui-button ui-state-default ui-corner-all" %>
+  </p>
+<% end %>
+</fieldset>
+<br>
+<%= link_to "Back", {:controller => "votes", :action => "index"},:class => "ui-button ui-state-default ui-corner-all" %>
+<%= link_to "Home", { :controller => "home", :action => "index" }, :class => "ui-button ui-state-default ui-corner-all"  %>

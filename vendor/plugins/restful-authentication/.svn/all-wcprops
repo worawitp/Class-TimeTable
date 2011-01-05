@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/web10_09/!svn/ver/59/branches/timetable/vendor/plugins/restful-authentication
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web10_09/!svn/ver/59/branches/timetable/vendor/plugins/restful-authentication/LICENSE
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/web10_09/!svn/ver/59/branches/timetable/vendor/plugins/restful-authentication/Rakefile
+END
+restful-authentication.gemspec
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/web10_09/!svn/ver/59/branches/timetable/vendor/plugins/restful-authentication/restful-authentication.gemspec
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/web10_09/!svn/ver/59/branches/timetable/vendor/plugins/restful-authentication/TODO
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web10_09/!svn/ver/59/branches/timetable/vendor/plugins/restful-authentication/init.rb
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/web10_09/!svn/ver/59/branches/timetable/vendor/plugins/restful-authentication/CHANGELOG
+END
+README.markdown
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/web10_09/!svn/ver/59/branches/timetable/vendor/plugins/restful-authentication/README.markdown
+END

@@ -1,0 +1,46 @@
+<h2 class="ui-widget-header ui-corner-all">Forum name: <%=h @forum.name %></h2>
+
+<% if @topics.length > 0 %>
+    <fieldset class="ui-widget ui-widget-content ui-corner-all">
+      <h3><legend class="ui-corner-all">Listing topics</legend></h3>
+
+      <table>
+        <tr>
+          <th>Topic</th>
+          <!--th>Description</th-->
+          <!--th>Content</th-->
+          <!--th>Forum</th-->
+          <th>Created by</th>
+          <th>Number of Comments</th>
+        </tr>
+
+        <% @topics.each do |topic| %>
+            <tr>
+              <td><%= link_to topic.name, forum_topic_path(:forum_id => @forum.id, :id => topic.id) %><br/><i><%=h topic.description %></i></td>
+              <!--td><%#=h topic.description %></td-->
+              <!--td><%#=h topic.content %></td-->
+              <!--td><%#=h topic.forum_id %></td-->
+              <td><%=h User.find_by_id(topic.owner_id).login %></td>
+              <td><%= topic.comments.length %></td>
+              <% if(@user.id == Course.find_by_id(@forum.course_id).instructor_id) %>
+                  <!--td><%#= link_to 'Show', topic, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %></td-->
+                  <td><%= link_to 'Edit', edit_forum_topic_path(:forum_id => @forum.id, :id => topic.id), :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %></td>
+                  <td><%= link_to 'Destroy', topic, :confirm => 'Are you sure?', :method => :delete, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %></td>
+              <% end %>
+            </tr>
+        <% end %>
+      </table>
+    </fieldset>
+<% end  %>
+
+<p>
+  <%#= link_to "New topic", {:controller => "topics", :action => "new", :forum_id => @forum.id}, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %>
+  <%= link_to "New topic", new_forum_topic_path(@forum.id), :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %>
+</p>
+<%#= link_to 'New topic', new_topic_path %>
+<!--<br/>-->
+<%#= link_to 'Edit forum', edit_forum_path(@forum), :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %>
+<p>
+  <%#= link_to 'Back', {:controller => "forums", :action => "index", :course_id => @forum.course_id}, :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %>
+  <%= link_to 'Back', course_forums_path(@forum.course_id), :class => "ui-button ui-widget ui-state-default ui-corner-all ui-button" %>
+</p>

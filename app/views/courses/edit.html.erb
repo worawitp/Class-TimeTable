@@ -1,0 +1,72 @@
+<%= javascript_include_tag "timeslot_checking" %>
+
+<h2 class="ui-widget-header ui-corner-all">Editing course</h2>
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+  <legend class="ui-corner-all">Courses information:</legend>
+  <% form_for(@course) do |f| %>
+      <%= f.error_messages %>
+
+      <p>
+        <%= f.label :name, "Course name : " %>
+        <%= f.text_field :name %>
+      </p>
+      <p>
+        <%= f.label :number, "Course number : " %>
+        <%= f.text_field :number %>
+      </p>
+      <p>
+        <%= f.label :instructor_id, "Instructor : " %>
+        <% if @instructors.length == 1 %>
+            <%= @instructors[0].fname %> <%= @instructors[0].lname %>
+            <%= f.hidden_field :instructor_id, :value => @instructors[0].id %>
+        <% else %>
+            <%= f.select :instructor_id, @instructors.collect { |i| [ i.fname+" "+i.lname, i.id ] }, {:prompt => 'Select Instructor'} %>
+        <% end %>
+      </p>
+      <p>
+        <%= f.label :year, "Year : " %>
+        <%= f.select :year, %w(2011 2010 2009), {:prompt => 'Select year'} %>
+      </p>
+      <p>
+        <%= f.label :semester, "Semester : " %>
+        <%= f.select :semester, %w(August January InterSem) %>
+      </p>
+      <p>
+        <%= f.label :number_timeslot, "Number Timeslot : " %>
+        <%= select "num", "timeslot", %w(1 2 3), {:prompt => 'Select number of timeslot'}, :onchange => "return check_timeslot_num(this.value)" %>
+      </p>
+      <div id="timeslot1" style="visibility:hidden;display:none;">
+        <p>
+          <%= f.label :timeslot_1, "Timeslot 1 : " %>
+          <%= select "timeslot1","day", @days.collect { |d| [d["name"], d["id"]]},{:prompt => 'Select Day'} %>
+          <%= select "timeslot1","starttime", @timeslots.collect { |t| [ t ] }, {:prompt => 'Select Time'}, :onchange => "return set_time_slot(this.value,'timeslot1_endtime')" %>
+          <%= select "timeslot1","endtime", @end_timeslots.collect { |t| [ t ] } %>
+        </p>
+      </div>
+      <div id="timeslot2" style="visibility:hidden;display:none;">
+        <p>
+          <%= f.label :timeslot_2, "Timeslot 2 : " %>
+          <%= select "timeslot2","day", @days.collect { |d| [d["name"], d["id"]]},{:prompt => 'Select Day'} %>
+          <%= select "timeslot2","starttime", @timeslots.collect { |t| [ t ] }, {:prompt => 'Select Time'}, :onchange => "return set_time_slot(this.value,'timeslot2_endtime')" %>
+          <%= select "timeslot2","endtime", @end_timeslots.collect { |t| [ t ] } %>
+        </p>
+      </div>
+      <div id="timeslot3" style="visibility:hidden;display:none;">
+        <p>
+          <%= f.label :timeslot_3, "Timeslot 3 : " %>
+          <%= select "timeslot3","day", @days.collect { |d| [d["name"], d["id"]]},{:prompt => 'Select Day'} %>
+          <%= select "timeslot3","starttime", @timeslots.collect { |t| [ t ] }, {:prompt => 'Select Time'}, :onchange => "return set_time_slot(this.value,'timeslot3_endtime')" %>
+          <%= select "timeslot3","endtime", @end_timeslots.collect { |t| [ t ] } %>
+        </p>
+      </div>
+
+      <p>
+        <%= f.submit 'Update', :class => "submit ui-button ui-widget ui-state-default ui-corner-all" %>
+      </p>
+  <% end %>
+</fieldset>
+<br/>
+<%#= link_to 'Show', @course, :class => "ui-button ui-state-default ui-corner-all" %>
+<%= link_to 'Back', { :controller => "home" }, :class => "ui-button ui-widget ui-state-default ui-corner-all" %>
+<%#= link_to 'Back', courses_path, :class => "ui-button ui-state-default ui-corner-all" %>
+<!--<td><%#= link_to 'Show', course, :class => "ui-button ui-widget ui-state-default ui-corner-all" %></td>-->

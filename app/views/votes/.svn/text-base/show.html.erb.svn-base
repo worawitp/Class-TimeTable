@@ -1,0 +1,14 @@
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+<p>
+  <b>Surveychoice:</b>
+  <%=h @vote.surveychoice_id %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @vote.owner_id %>
+</p>
+</fieldset>
+<br>
+<%= link_to 'Edit', edit_vote_path(@vote),:class => "ui-button ui-state-default ui-corner-all" %> 
+<%= link_to 'Back', votes_path,:class => "ui-button ui-state-default ui-corner-all" %>

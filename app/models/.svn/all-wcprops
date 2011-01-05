@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/web10_09/!svn/ver/218/branches/timetable/app/models
+END
+instructor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/instructor.rb
+END
+student.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/student.rb
+END
+course.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/course.rb
+END
+surveychoice.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/surveychoice.rb
+END
+room.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/room.rb
+END
+survey.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/survey.rb
+END
+user_mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web10_09/!svn/ver/81/branches/timetable/app/models/user_mailer.rb
+END
+role.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/role.rb
+END
+topic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/topic.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/user.rb
+END
+timeslot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/timeslot.rb
+END
+vote.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/vote.rb
+END
+user_observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/web10_09/!svn/ver/59/branches/timetable/app/models/user_observer.rb
+END
+forum.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/web10_09/!svn/ver/108/branches/timetable/app/models/forum.rb
+END
+staff.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/web10_09/!svn/ver/110/branches/timetable/app/models/staff.rb
+END
+comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/web10_09/!svn/ver/218/branches/timetable/app/models/comment.rb
+END
+student_course.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/web10_09/!svn/ver/210/branches/timetable/app/models/student_course.rb
+END

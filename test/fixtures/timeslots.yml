@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  course_id: 1
+  day: MyString
+  starttime: 2010-11-07 13:53:09
+  endtime: 2010-11-07 13:53:09
+
+two:
+  course_id: 1
+  day: MyString
+  starttime: 2010-11-07 13:53:09
+  endtime: 2010-11-07 13:53:09

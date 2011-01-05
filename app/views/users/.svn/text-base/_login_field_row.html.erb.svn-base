@@ -1,0 +1,7 @@
+<div class="form_row">
+  <label for="login">Username:</label>
+  <%= form.text_field :login,
+                      :size => User::LOGIN_SIZE,
+                      :maxlength => User::LOGIN_MAX_LENGTH,
+                      :class => "ui-widget" %>
+</div>

@@ -1,0 +1,321 @@
+<%= javascript_include_tag "timeslot_checking" %>
+
+<script type="text/javascript">
+    $(function(){
+        //    if ($('#survey').is(':checked'))
+        //        alert("yes");
+        makeup_class_toggle();
+    });
+
+    function makeup_class_toggle(){
+        if ($('#makeup_class').is(':checked')){
+            $('#makeup_class_form').show()
+        }
+        else{
+            $('#makeup_class_form').hide()
+        }
+    };
+
+    function check_survey_num(value){
+        //alert(value);
+        for(i=1;i<=5;i++){
+            var choice_div=document.getElementById("choice"+i);
+            if(choice_div){
+                if(i<=value){
+                    choice_div.style.visibility="visible";
+                    choice_div.style.display="block";
+                }
+                else{
+                    choice_div.style.visibility="hidden";
+                    choice_div.style.display="none";
+                }
+            }
+        }
+        return true;
+    }
+</script>
+
+<% timeWidth = 40 %>
+<% timeHeight = 50 %>
+<% dayWidth = 70 %>
+<% dayHeight = 40 %>
+<% topSpace = 30 %>
+
+<style>
+    #timetable
+    {
+        width: 1030px;
+        height: 370px;
+        padding: 0.5em;
+        font-size: 10px
+    }
+    #timetable h3
+    {
+        text-align: center;
+        margin: 0;
+        font-size: 10px
+    }
+    #draggable {
+        width: 150px;
+        height: 150px;
+        padding: 0.5em;
+        font-size: 10px
+    }
+    .time
+    {
+        width: <%= timeWidth %>px;
+        height: <%= timeHeight %>px;
+        padding: 0em;
+        font-size: 10px;
+        text-align: center
+    }
+    .day
+    {
+        width: <%= dayWidth %>px;
+        height: <%= dayHeight %>px;
+        padding: 0em;
+        font-size: 10px;
+        text-align: center
+    }
+    .timeslot
+    {
+        width: <%= timeWidth %>px;
+        height: <%= timeHeight %>px;
+        padding: 0em;
+        font-size: 10px;
+        text-align: center;
+    #background: none;
+        background: white;
+        opacity:0.6;
+    }
+</style>
+<script>
+    //$(function() {
+    //    $( "#timetable1" ).resizable();
+    //$( "#resizable" ).draggable();
+    //});
+
+    //$(function() {
+    //    $( "#draggable" ).draggable();
+    //    $( "#draggable" ).resizable();
+    //});
+
+    //$(function() {
+    //    for(i=0;i<20;i++) {
+    //        $( "#test"+i ).draggable();
+    //$( "#test"+i ).resizable();
+    //    }
+    //});
+
+
+    $(function() {
+        //alert("timeslot 1 : "+$( "#timeslot1" ).text());
+        for (i=0;i< <%= @timeslots.length %>+0 ;i++) {
+            var text = $( "#timeslot"+i ).text();
+            var token=text.split("#")
+            //alert(token);
+            var day = token[0]
+            if (day == 0) {
+                day=7
+            }
+
+
+            var token2=token[1].split("-");
+            var first = token2[0].split(":");
+            var second = token2[1].split(":");
+
+            var start = first[0] - 8 + first[1]/30;
+            var length = (second[0] - first[0]) * 2 + (second[1] - first[1])/30;
+
+            start = <%= dayWidth %> + ((first[0] - 8) * 2 + first[1]/30) * (<%= timeWidth %> + 0);
+            //alert(start);
+            //alert("token : "+token);
+            //alert("first : "+first);
+            //alert("second : "+second);
+            toppos = (<%= topSpace+timeHeight %> + 1) + (day-1) * <%= dayHeight+1 %>+0;
+
+            //alert("timeslot 1 width : "+$( "#timeslot1" ).width());
+            $( "#timeslot"+i ).width(length * (<%= timeWidth %> + 0));
+            $( "#timeslot"+i ).height(<%= dayHeight %>);
+            $( "#timeslot"+i ).css( { top: toppos, left: start, position: "absolute" });
+            //$( "#timeslot1" ).draggable();
+            //$( "#timeslot1" ).top(100);
+            $( "#timeslot"+i ).html("<p>"+token[1]+"<br/>"+token[2]+"</p>");
+        }
+
+
+    });
+
+</script>
+
+
+
+
+
+<h2 class="ui-widget-header ui-corner-all">All Distinct Courses</h2>
+
+
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+  <legend class="ui-corner-all">All courses:</legend>
+
+  <!--table>
+    <tr><th>Id</th><th>Name</th></tr>
+    <%# for course_id in @courses_id %>
+        <tr>
+          <td><%#= course_id.take_course_id %></td>
+          <td><%#= student.fname %> <%#= student.lname %></td>
+        </tr>
+    <%# end %>
+  </table-->
+
+  <table>
+    <tr><th>Id</th><th>Number</th><th>Name</th></tr>
+    <% for course in @courses %>
+        <tr>
+          <td><%= course.id %></td>
+          <td><%= course.number %></td>
+          <td><%= course.name %></td>
+        </tr>
+    <% end %>
+  </table>
+
+</fieldset>
+<br/>
+
+
+<div>
+  <div id="timetable" class="ui-widget-content" style="position: relative">
+    <h3 class="ui-widget-header">time table</h3>
+
+    <%#= time header  %>
+    <% t=Time.parse("8:00") %>
+    <% 24.times { |i| %>
+        <div id="test<%= i %>" class="ui-widget-content time" style="position: absolute; top: <%= topSpace %>px; left: <%= dayWidth+i*(timeWidth) %>px;">
+          <p class="time"><%= t.strftime("%H:%M") %><br/>
+            <% t=t+(30*60) %>
+            <%= t.strftime("%H:%M") %></p>
+        </div>
+    <% } %>
+
+
+    <%#= day %>
+    <% weekday = %w[Monday Tuesday Wednesday Thursday Friday Saturday Sunday] %>
+    <% 7.times { |i| %>
+        <div id="test<%= i %>" class="ui-widget-content day" style="position: absolute; top: <%= topSpace+timeHeight+1+i*(dayHeight+1) %>px; left: 0px;">
+          <p><%= weekday[i] %></p>
+        </div>
+    <% } %>
+
+
+    <% i=0 %>
+    <% for timeslot in @timeslots %>
+        <div id="timeslot<%= i %>" class="ui-widget-content timeslot"><%= timeslot.day %> # <%= timeslot.starttime.strftime("%H:%M") %> - <%= timeslot.endtime.strftime("%H:%M") %> # <%= Course.find_by_id(timeslot.course_id).number %></div>
+        <% i+=1 %>
+    <% end %>
+
+    <!--
+    <div id="timeslot0" class="ui-widget-content timeslot">08:00 - 08:30</div>
+    <div id="timeslot1" class="ui-widget-content timeslot">09:00 - 10:00</div>
+    <div id="timeslot2" class="ui-widget-content timeslot">10:30 - 11:00</div>
+    <div id="timeslot3" class="ui-widget-content timeslot">11:30 - 13:30</div>
+    <div id="timeslot4" class="ui-widget-content timeslot">14:00 - 15:30</div>
+    <div id="timeslot5" class="ui-widget-content timeslot">16:00 - 17:30</div>
+    <div id="timeslot6" class="ui-widget-content timeslot">17:30 - 18:30</div>
+    <div id="timeslot7" class="ui-widget-content timeslot">18:30 - 19:00</div>
+    <div id="timeslot8" class="ui-widget-content timeslot">19:00 - 19:30</div>
+    <div id="timeslot9" class="ui-widget-content timeslot">20:00 - 20:00</div>
+    -->
+  </div>
+</div>
+
+
+<% form_for(@topic) do |f| %>
+    <%= hidden_field_tag "course_id", @course_id %>
+    <%= hidden_field_tag :owner_id, @user.id %>
+    <%= hidden_field_tag :description, "Auto generated" %>
+    <p>
+      <%= f.label :makeup_class, "Makeup Class : " %>
+      <input type="checkbox" id="makeup_class" name="makeup_class" onchange="makeup_class_toggle()"/>
+    </p>
+    <div id="makeup_class_form" style="display:none;">
+      <p>
+        <%= label_tag "Topic : " %>
+        <%= f.text_field :name %>
+      </p>
+      <p>
+        <%= label_tag "Number of choices : " %>
+        <%= select "num", "choices", %w(1 2 3 4 5), {:prompt => 'Select number of choices'}, :onchange => "return check_survey_num(this.value)"  %>
+      </p>
+      <div id="choice1" style="display:none;">
+        <p><%= f.label :choice1, "Choice 1 : " %></p>
+
+        <script>
+            $(function() {
+                $( "#datepicker1" ).datepicker();
+            });
+        </script>
+        <p>Date: <input id="datepicker1" name="datepicker1" type="text">
+        <%= select "timeslot1","starttime", @timeslots2.collect { |t| [ t ] }, {:prompt => 'Select Time'}, :onchange => "return set_time_slot(this.value,'timeslot1_endtime')" %>
+        <%= select "timeslot1","endtime", @end_timeslots.collect { |t| [ t ] } %></p>
+        </p>
+      </div>
+      <div id="choice2" style="display:none;">
+        <p><%= f.label :choice2, "Choice 2 : " %></p>
+
+        <script>
+            $(function() {
+                $( "#datepicker2" ).datepicker();
+            });
+        </script>
+        <p>Date: <input id="datepicker2" name="datepicker2" type="text">
+        <%= select "timeslot2","starttime", @timeslots2.collect { |t| [ t ] }, {:prompt => 'Select Time'}, :onchange => "return set_time_slot(this.value,'timeslot2_endtime')" %>
+        <%= select "timeslot2","endtime", @end_timeslots.collect { |t| [ t ] } %></p>
+        </p>
+      </div>
+      <div id="choice3" style="display:none;">
+        <p><%= f.label :choice1, "Choice 3 : " %></p>
+
+        <script>
+            $(function() {
+                $( "#datepicker3" ).datepicker();
+            });
+        </script>
+        <p>Date: <input id="datepicker3" name="datepicker3" type="text">
+        <%= select "timeslot3","starttime", @timeslots2.collect { |t| [ t ] }, {:prompt => 'Select Time'}, :onchange => "return set_time_slot(this.value,'timeslot3_endtime')" %>
+        <%= select "timeslot3","endtime", @end_timeslots.collect { |t| [ t ] } %></p>
+        </p>
+      </div>
+      <div id="choice4" style="display:none;">
+        <p><%= f.label :choice4, "Choice 4 : " %></p>
+
+        <script>
+            $(function() {
+                $( "#datepicker4" ).datepicker();
+            });
+        </script>
+        <p>Date: <input id="datepicker4" name="datepicker4" type="text">
+        <%= select "timeslot4","starttime", @timeslots2.collect { |t| [ t ] }, {:prompt => 'Select Time'}, :onchange => "return set_time_slot(this.value,'timeslot4_endtime')" %>
+        <%= select "timeslot4","endtime", @end_timeslots.collect { |t| [ t ] } %></p>
+        </p>
+      </div>
+      <div id="choice5" style="display:none;">
+        <p><%= f.label :choice5, "Choice 5 : " %></p>
+
+        <script>
+            $(function() {
+                $( "#datepicker5" ).datepicker();
+            });
+        </script>
+        <p>Date: <input id="datepicker5" name="datepicker5" type="text">
+        <%= select "timeslot5","starttime", @timeslots2.collect { |t| [ t ] }, {:prompt => 'Select Time'}, :onchange => "return set_time_slot(this.value,'timeslot5_endtime')" %>
+        <%= select "timeslot5","endtime", @end_timeslots.collect { |t| [ t ] } %></p>
+        </p>
+      </div>
+      <%= f.submit 'Create Survey', :class => "submit ui-button ui-widget ui-state-default ui-corner-all" %>
+    </div>
+<% end %>
+
+
+<p>
+  <%= link_to 'Home', { :controller => "home" }, :class => "ui-button ui-state-default ui-corner-all" %>
+</p>

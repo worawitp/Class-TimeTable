@@ -1,0 +1,35 @@
+<% if @user!= nil %>
+    <h1>Admin Show User</h1>
+    <div id="">
+      <div class="sidebar_box">
+        <h2>
+          <span class="header">Username: <%= @user.login %></span>
+          <span class="edit_link">
+            <% if @user.state == "suspended"  %>
+                <%= link_to "(UnBan)", {:action => "unbanuser", :id => @user.id } %>
+            <% else %>
+                <%= link_to "(Ban)", {:action => "banuser", :id => @user.id } %>
+            <% end %>
+            <%= link_to "(Delete)", {:action => "deleteuser", :id => @user.id } %>
+          </span>
+          <br clear="all" />
+        </h2>
+        <div class="sidebar_box_contents">
+          <table>
+            <tr>
+              <td class="label">Full name:</td>
+              <td><%= @user.fname %> <%= @user.lname %></td>
+            </tr>
+            <tr>
+              <td class="label">Email:</td>
+              <td><%= @user.email %></td>
+            </tr>
+            <tr>
+              <td class="label">Type:</td>
+              <td><%= @user.type.to_s %></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+<% end %>

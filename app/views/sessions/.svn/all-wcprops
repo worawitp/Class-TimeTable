@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/web10_09/!svn/ver/211/branches/timetable/app/views/sessions
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/web10_09/!svn/ver/155/branches/timetable/app/views/sessions/new.html.erb
+END
+forget_password.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/web10_09/!svn/ver/155/branches/timetable/app/views/sessions/forget_password.html.erb
+END
+_notice.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/web10_09/!svn/ver/211/branches/timetable/app/views/sessions/_notice.html.erb
+END

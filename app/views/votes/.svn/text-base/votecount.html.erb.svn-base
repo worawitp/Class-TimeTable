@@ -1,0 +1,18 @@
+<h2 class="ui-widget-header ui-corner-all"> Ranking Votes </h2>
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+  <table>
+    <th>Surveychoice</th>
+    <th>Total Votes</th>
+    </tr>
+    <% @votes.each do |vote| %>
+        <tr>
+          <td><%=h vote.surveychoice_id %></td>
+          <td><%=h vote.counter %></td>
+        </tr>
+    <% end %>
+  </table>
+
+</fieldset>
+<br>
+<%= link_to "Vote", {:controller=>"votes",:action =>"index"},:class => "ui-button ui-state-default ui-corner-all"%>
+<%= link_to "Home", { :controller => "home", :action => "index" }, :class => "ui-button ui-state-default ui-corner-all"  %>

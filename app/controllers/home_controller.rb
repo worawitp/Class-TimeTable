@@ -7,6 +7,7 @@ class HomeController < ApplicationController
     @user = session[:user]
     if @user==nil
       redirect_to :controller => "sessions", :action => "new"
+      return
     end
     check_admin(@user)
 
@@ -37,6 +38,7 @@ class HomeController < ApplicationController
     @user = session[:user]
      if @user==nil
       redirect_to :controller => "sessions", :action => "new"
+      return
     end
     if param_posted?(:user)
       attribute = params[:attribute]
@@ -45,11 +47,13 @@ class HomeController < ApplicationController
           if @user.update_attributes( params[:user] )
             flash[:notice] = "User details updated."
             redirect_to :action => "index"
+            return
           end
         when "password"
           if @user.update_password(params[:user])
             flash[:notice] = "User password updated."
             redirect_to :action => "index"
+            return
           else
             flash[:notice] = "Unable to update password."
           end
@@ -86,7 +90,10 @@ class HomeController < ApplicationController
     @student_course[0].destroy
 
     respond_to do |format|
-      format.html { redirect_to({:controller => "home"}) }
+      format.html { 
+          redirect_to({:controller => "home"})
+          return
+      }
       format.xml  { head :ok }
     end
 
